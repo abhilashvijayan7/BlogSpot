@@ -19,7 +19,7 @@ app.get('/', function (req, res) {
         description:'Test description 2'
      }]
 
-  res.render('index',{articles});
+  res.render('articles/index',{articles});
 });
 app.listen(3000, function () {
   console.log('Example app listening on port 3000!');
